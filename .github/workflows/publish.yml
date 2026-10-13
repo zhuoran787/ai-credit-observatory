@@ -58,7 +58,7 @@ jobs:
           from urllib.request import Request,urlopen
           import os,time
           base='${{ steps.deployment.outputs.page_url }}'
-          for filename in ['index.html','report.html','data/snapshot.json']:
+          for filename in ['index.html','report.html','data/snapshot.json','shared/index.html','shared/payload.bin']:
               expected=(Path('site')/filename).read_bytes()
               for attempt in range(8):
                   try:

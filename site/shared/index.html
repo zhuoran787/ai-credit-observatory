@@ -1,0 +1,38 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer"><title>AI信用观察台 · 专属分享</title><style>body{margin:0;background:#f4f5ef;color:#182c39;font:16px/1.8 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;display:grid;min-height:100vh;place-items:center}main{max-width:540px;margin:25px;padding:36px;background:white;border:1px solid #dbe2df;border-radius:12px}small{color:#177b75;letter-spacing:2px}h1{font-size:28px}p{color:#61727b}code{overflow-wrap:anywhere}</style></head><body><main><small>AI CREDIT OBSERVATORY</small><h1 id="heading">正在打开完整研究…</h1><p id="message">请稍候。</p></main><script>
+'use strict';
+window.addEventListener('hashchange',()=>location.reload());
+(async()=>{
+ const heading=document.getElementById('heading'),message=document.getElementById('message');
+ const token=new URLSearchParams(location.hash.slice(1)).get('k');
+ if(!token){heading.textContent='需要完整分享链接';message.textContent='请使用发送者提供的完整链接打开，其中包含访问凭证。仅有这个页面地址无法读取研究内容。';return;}
+ if(!/^[A-Za-z0-9_-]{43}$/.test(token)){heading.textContent='分享链接不完整';message.textContent='请重新复制完整链接，或向发送者索取。';return;}
+ try{
+  if(!crypto.subtle||!window.DecompressionStream)throw Error('请使用较新版本的 Safari、Chrome 或 Edge 打开。');
+  const raw=Uint8Array.from(atob(token.replaceAll('-','+').replaceAll('_','/')+'='),c=>c.charCodeAt(0));
+  const key=await crypto.subtle.importKey('raw',raw,'AES-GCM',false,['decrypt']);
+  message.textContent='正在读取最新已发布的分享版…';
+  const response=await fetch('payload.bin?v='+Date.now(),{cache:'no-store'});
+  if(!response.ok)throw Error('页面暂时无法读取，请稍后重试。');
+  const bytes=new Uint8Array(await response.arrayBuffer());
+  if(new TextDecoder().decode(bytes.subarray(0,5))!=='AICR1')throw Error('分享文件格式有误，请联系发送者。');
+  const zipped=await crypto.subtle.decrypt({name:'AES-GCM',iv:bytes.subarray(5,17),additionalData:bytes.subarray(0,5),tagLength:128},key,bytes.subarray(17));
+  const text=await new Response(new Blob([zipped]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
+  const b=JSON.parse(text);
+  const objectUrl=(value,type)=>URL.createObjectURL(new Blob([value],{type}));
+  const mdUrl=objectUrl(b.reportMarkdown,'text/markdown;charset=utf-8');
+  const shareUrl=new URL('./',location.href).href+location.hash;
+  const reportAddress=new URL(shareUrl);reportAddress.searchParams.set('view','report');
+  const reportUrl=reportAddress.href;
+  const report=b.reportHtml.replaceAll('__SHARE_URL__',shareUrl).replaceAll('__REPORT_MD_URL__',mdUrl);
+  if(new URLSearchParams(location.search).get('view')==='report'){document.open();document.write(report);document.close();return;}
+  for(const source of Object.values(b.sources))source.url=source.url.replace('__REPORT_URL__',reportUrl);
+  const jsonScript=value=>JSON.stringify(value).replaceAll('<','\\u003c');
+  const data='window.MARKET_DATA='+jsonScript(b.market)+';window.RESEARCH='+jsonScript(b.research)+';window.SOURCES='+jsonScript(b.sources)+';';
+  const script=code=>'<script>'+code.replaceAll('</script','<\\/script')+'<\/script>';
+  let html=b.html.replace('__SHARED_SCRIPTS__',script(data)+script(b.app)).replaceAll('__SHARE_URL__',shareUrl);
+  html=html.replaceAll('href="report.html"','href="'+reportUrl+'"').replaceAll('href="report.md"','href="'+mdUrl+'"');
+  html=html.replaceAll('href="data/research.json"','href="'+objectUrl(JSON.stringify(b.research,null,2),'application/json')+'"').replaceAll('href="data/snapshot.json"','href="'+objectUrl(JSON.stringify(b.market,null,2),'application/json')+'"');
+  document.open();document.write(html);document.close();
+ }catch(error){heading.textContent='暂时无法打开分享内容';message.textContent=error.name==='OperationError'?'访问凭证不正确，或分享文件已改变。请向发送者索取完整链接。':error.message;}
+})();
+</script></body></html>
