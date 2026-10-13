@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-12T22:50:16-07:00",
+  "fetched_at": "2026-10-13T00:08:54-07:00",
   "research_asof": "2026-10-12",
-  "today_local": "2026-10-12",
-  "refresh_policy": "手动触发GitHub后台抓取；网页按钮读取最近发布的快照；没有定时更新。",
+  "today_local": "2026-10-13",
+  "refresh_policy": "本地手动刷新；未设置自动任务",
   "series": {
     "OWL": {
       "id": "OWL",
@@ -11,7 +11,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/OWL/",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-12",
       "value": 9.34,
       "history": [
@@ -1026,7 +1026,7 @@
       "fetch_status": "ok",
       "error": null,
       "provider_quote_price": 9.34,
-      "age_calendar_days": 0,
+      "age_calendar_days": 1,
       "stale": false,
       "change_5obs": 4.125,
       "change_20obs": -10.451,
@@ -1039,7 +1039,7 @@
       "frequency": "日频",
       "provider": "Federal Reserve Bank of New York",
       "source_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/30.json",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-08",
       "value": 3.87,
       "history": [
@@ -1169,7 +1169,7 @@
       "quote_time": null,
       "fetch_status": "ok",
       "error": null,
-      "age_calendar_days": 4,
+      "age_calendar_days": 5,
       "stale": false,
       "change_5obs": 0.0,
       "change_20obs": 25.0,
@@ -1182,7 +1182,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/OBDC/",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-12",
       "value": 10.12,
       "history": [
@@ -2197,7 +2197,7 @@
       "fetch_status": "ok",
       "error": null,
       "provider_quote_price": 10.12,
-      "age_calendar_days": 0,
+      "age_calendar_days": 1,
       "stale": false,
       "change_5obs": -0.492,
       "change_20obs": -8.664,
@@ -2210,7 +2210,7 @@
       "frequency": "日频/收盘",
       "provider": "US Treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-09",
       "value": 4.8,
       "history": [
@@ -3000,7 +3000,7 @@
       "quote_time": null,
       "fetch_status": "ok",
       "error": null,
-      "age_calendar_days": 3,
+      "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -3.0,
       "change_20obs": 17.0,
@@ -3013,7 +3013,7 @@
       "frequency": "日频/收盘",
       "provider": "US Treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-09",
       "value": 5.02,
       "history": [
@@ -3803,7 +3803,7 @@
       "quote_time": null,
       "fetch_status": "ok",
       "error": null,
-      "age_calendar_days": 3,
+      "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -4.0,
       "change_20obs": 24.0,
@@ -3816,7 +3816,7 @@
       "frequency": "日频/收盘",
       "provider": "US Treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-09",
       "value": 5.24,
       "history": [
@@ -4606,7 +4606,7 @@
       "quote_time": null,
       "fetch_status": "ok",
       "error": null,
-      "age_calendar_days": 3,
+      "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -4.0,
       "change_20obs": 28.0,
@@ -4619,7 +4619,7 @@
       "frequency": "日频/收盘",
       "provider": "US Treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-09",
       "value": 5.65,
       "history": [
@@ -5409,7 +5409,7 @@
       "quote_time": null,
       "fetch_status": "ok",
       "error": null,
-      "age_calendar_days": 3,
+      "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -2.0,
       "change_20obs": 27.0,
@@ -5422,7 +5422,7 @@
       "frequency": "日频/收盘",
       "provider": "US Treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-09",
       "value": 5.6,
       "history": [
@@ -6212,7 +6212,7 @@
       "quote_time": null,
       "fetch_status": "ok",
       "error": null,
-      "age_calendar_days": 3,
+      "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -3.0,
       "change_20obs": 25.0,
@@ -6225,7 +6225,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/OTF/",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-12",
       "value": 9.21,
       "history": [
@@ -7240,7 +7240,7 @@
       "fetch_status": "ok",
       "error": null,
       "provider_quote_price": 9.21,
-      "age_calendar_days": 0,
+      "age_calendar_days": 1,
       "stale": false,
       "change_5obs": -2.436,
       "change_20obs": -13.358,
@@ -7253,7 +7253,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/ORCL/",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-12",
       "value": 137.389999,
       "history": [
@@ -8268,7 +8268,7 @@
       "fetch_status": "ok",
       "error": null,
       "provider_quote_price": 137.39,
-      "age_calendar_days": 0,
+      "age_calendar_days": 1,
       "stale": false,
       "change_5obs": -3.572,
       "change_20obs": -5.111,
@@ -8281,7 +8281,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/NBIS/",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-12",
       "value": 210.059998,
       "history": [
@@ -9296,7 +9296,7 @@
       "fetch_status": "ok",
       "error": null,
       "provider_quote_price": 210.06,
-      "age_calendar_days": 0,
+      "age_calendar_days": 1,
       "stale": false,
       "change_5obs": -9.679,
       "change_20obs": -1.004,
@@ -9309,7 +9309,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/CRWV/",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-12",
       "value": 80.260002,
       "history": [
@@ -10324,7 +10324,7 @@
       "fetch_status": "ok",
       "error": null,
       "provider_quote_price": 80.26,
-      "age_calendar_days": 0,
+      "age_calendar_days": 1,
       "stale": false,
       "change_5obs": -8.159,
       "change_20obs": -3.278,
@@ -10337,7 +10337,7 @@
       "frequency": "日频/模型估计",
       "provider": "NY Fed ACM 模型",
       "source_url": "https://www.newyorkfed.org/research/data_indicators/term-premia-tabs",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-09",
       "value": 0.902297,
       "history": [
@@ -11375,7 +11375,7 @@
       "quote_time": null,
       "fetch_status": "ok",
       "error": null,
-      "age_calendar_days": 3,
+      "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -1.137,
       "change_20obs": 18.858,
@@ -11388,7 +11388,7 @@
       "frequency": "日频",
       "provider": "同日数据计算",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-09",
       "value": 80.0,
       "history": [
@@ -12178,7 +12178,7 @@
       "quote_time": null,
       "fetch_status": "ok",
       "error": null,
-      "age_calendar_days": 3,
+      "age_calendar_days": 4,
       "stale": false,
       "change_5obs": 0.0,
       "change_20obs": 8.0,
@@ -12191,7 +12191,7 @@
       "frequency": "日频",
       "provider": "同日数据计算",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:50:16-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-09",
       "value": 36.0,
       "history": [
@@ -12981,7 +12981,7 @@
       "quote_time": null,
       "fetch_status": "ok",
       "error": null,
-      "age_calendar_days": 3,
+      "age_calendar_days": 4,
       "stale": false,
       "change_5obs": 1.0,
       "change_20obs": -3.0,
@@ -12994,7 +12994,7 @@
       "frequency": "日频/收盘",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/DGS2",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-08",
       "value": 4.75,
       "history": [
@@ -14026,9 +14026,9 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 4,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 5,
       "stale": false,
       "change_5obs": -3.0,
       "change_20obs": 19.0,
@@ -14041,7 +14041,7 @@
       "frequency": "日频/收盘",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/DGS5",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-08",
       "value": 4.99,
       "history": [
@@ -15073,9 +15073,9 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 4,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 5,
       "stale": false,
       "change_5obs": -2.0,
       "change_20obs": 24.0,
@@ -15088,7 +15088,7 @@
       "frequency": "日频/收盘",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/DGS10",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-08",
       "value": 5.22,
       "history": [
@@ -16120,9 +16120,9 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 4,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 5,
       "stale": false,
       "change_5obs": -2.0,
       "change_20obs": 27.0,
@@ -16135,7 +16135,7 @@
       "frequency": "日频/收盘",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/DGS30",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-08",
       "value": 5.6,
       "history": [
@@ -17167,9 +17167,9 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 4,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 5,
       "stale": false,
       "change_5obs": -1.0,
       "change_20obs": 23.0,
@@ -17182,7 +17182,7 @@
       "frequency": "日频/收盘",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/DGS20",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-08",
       "value": 5.64,
       "history": [
@@ -18214,9 +18214,9 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 4,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 5,
       "stale": false,
       "change_5obs": 0.0,
       "change_20obs": 25.0,
@@ -18229,7 +18229,7 @@
       "frequency": "日频/收盘",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/DFII30",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-08",
       "value": 3.31,
       "history": [
@@ -19261,9 +19261,9 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 4,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 5,
       "stale": false,
       "change_5obs": 0.0,
       "change_20obs": 26.0,
@@ -19276,7 +19276,7 @@
       "frequency": "日频/收盘",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/DFII10",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-08",
       "value": 2.87,
       "history": [
@@ -20308,9 +20308,9 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 4,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 5,
       "stale": false,
       "change_5obs": -1.0,
       "change_20obs": 32.0,
@@ -20323,7 +20323,7 @@
       "frequency": "日频/收盘",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/T10YIE",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-09",
       "value": 2.33,
       "history": [
@@ -21359,9 +21359,9 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 3,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -3.0,
       "change_20obs": -3.0,
@@ -21374,7 +21374,7 @@
       "frequency": "日频/收盘",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/SOFR",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-08",
       "value": 3.87,
       "history": [
@@ -22402,9 +22402,9 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 4,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 5,
       "stale": false,
       "change_5obs": 0.0,
       "change_20obs": 25.0,
@@ -22417,7 +22417,7 @@
       "frequency": "周频",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-10-08",
       "value": 7.4,
       "history": [
@@ -22641,9 +22641,9 @@
       "stale_calendar_days": 12,
       "note": "Freddie Mac调查的住房贷款利率；不是agency MBS收益率或OAS。",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 4,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 5,
       "stale": false,
       "change_5obs": 69.0,
       "change_20obs": 89.0,
@@ -22656,7 +22656,7 @@
       "frequency": "季度",
       "provider": "FRED（来源见原页面）",
       "source_url": "https://fred.stlouisfed.org/series/DRTSCILM",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-13T00:08:54-07:00",
       "observed_at": "2026-07-01",
       "value": 0.0,
       "history": [
@@ -22680,9 +22680,9 @@
       "stale_calendar_days": 110,
       "note": "",
       "quote_time": null,
-      "fetch_status": "cached",
-      "error": "本次尚未成功更新",
-      "age_calendar_days": 103,
+      "fetch_status": "ok",
+      "error": null,
+      "age_calendar_days": 104,
       "stale": false,
       "change_5obs": null,
       "change_20obs": null,
@@ -22694,121 +22694,121 @@
       "source": "NYFed_SOFR",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:50:16-07:00"
+      "checked_at": "2026-10-13T00:08:54-07:00"
+    },
+    {
+      "source": "FRED_DGS2",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
     },
     {
       "source": "Treasury",
       "ok": true,
       "series_count": 5,
-      "checked_at": "2026-10-12T22:50:16-07:00"
+      "checked_at": "2026-10-13T00:08:54-07:00"
+    },
+    {
+      "source": "FRED_DGS5",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
+    },
+    {
+      "source": "FRED_DGS10",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
+    },
+    {
+      "source": "FRED_DFII10",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
+    },
+    {
+      "source": "FRED_DGS20",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
+    },
+    {
+      "source": "FRED_DGS30",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
     },
     {
       "source": "NYFed_ACM",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:50:16-07:00"
-    },
-    {
-      "source": "FRED_DGS5",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
-    },
-    {
-      "source": "FRED_DGS2",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
-    },
-    {
-      "source": "FRED_DGS10",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
-    },
-    {
-      "source": "FRED_DGS20",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
-    },
-    {
-      "source": "FRED_DGS30",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
-    },
-    {
-      "source": "FRED_DFII10",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
-    },
-    {
-      "source": "FRED_SOFR",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
+      "checked_at": "2026-10-13T00:08:54-07:00"
     },
     {
       "source": "FRED_DFII30",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
+    },
+    {
+      "source": "FRED_SOFR",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
     },
     {
       "source": "FRED_T10YIE",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
-    },
-    {
-      "source": "OTF",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:50:16-07:00"
+      "checked_at": "2026-10-13T00:08:54-07:00"
+    },
+    {
+      "source": "FRED_MORTGAGE30US",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
     },
     {
       "source": "OWL",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:50:16-07:00"
+      "checked_at": "2026-10-13T00:08:54-07:00"
+    },
+    {
+      "source": "FRED_DRTSCILM",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
+    },
+    {
+      "source": "OTF",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
     },
     {
       "source": "OBDC",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:50:16-07:00"
+      "checked_at": "2026-10-13T00:08:54-07:00"
     },
     {
       "source": "ORCL",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:50:16-07:00"
-    },
-    {
-      "source": "CRWV",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:50:16-07:00"
+      "checked_at": "2026-10-13T00:08:54-07:00"
     },
     {
       "source": "NBIS",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:50:16-07:00"
+      "checked_at": "2026-10-13T00:08:54-07:00"
     },
     {
-      "source": "FRED_MORTGAGE30US",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
-    },
-    {
-      "source": "FRED_DRTSCILM",
-      "ok": false,
-      "error": "TimeoutError: The read operation timed out",
-      "checked_at": "2026-10-12T22:50:16-07:00"
+      "source": "CRWV",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-13T00:08:54-07:00"
     }
   ],
   "config_hash": "856355aed73f3bd52b11efbc03704c55718ef9e13bd710b9c0507ebc78941467",
@@ -22892,6 +22892,11 @@
       "id": "BAMLH0A0HYM2EY",
       "label": "全市场 HY 有效收益率",
       "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2EY"
+    },
+    {
+      "id": "BB_BBB",
+      "label": "BB−BBB OAS",
+      "url": "https://fred.stlouisfed.org/series/BAMLH0A1HYBB"
     },
     {
       "id": "BAMLC7A0C1015Y",

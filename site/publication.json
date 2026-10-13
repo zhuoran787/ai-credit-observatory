@@ -1,9 +1,9 @@
 {
-  "built_at": "2026-10-13T05:51:40.996781+00:00",
-  "research_asof": "2026-10-12",
-  "market_fetched_at": "2026-10-12T22:50:16-07:00",
+  "version": 2,
+  "built_at": "2026-10-13T07:15:22.887331+00:00",
+  "market_fetched_at": "2026-10-13T00:08:54-07:00",
   "public_series": 26,
-  "restricted_source_links": 17,
-  "refresh_policy": "manual_only",
-  "index_sha256": "8c31cc4f8e347cd9ed5c8461cdde75b94ba7072289e034b995ec8055e22698ff"
+  "restricted_series_excluded": 18,
+  "index_sha256": "3020e99cae910f2bd308902a2dd84b3b2810c569f2c4be61bf011b26ee709987",
+  "full_share": "Encrypted payload updated separately with stable existing fragment key."
 }
