@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "built_at": "2026-10-13T07:15:22.887331+00:00",
+  "built_at": "2026-10-13T07:36:30.378004+00:00",
   "market_fetched_at": "2026-10-13T00:08:54-07:00",
   "public_series": 26,
   "restricted_series_excluded": 18,
-  "index_sha256": "3020e99cae910f2bd308902a2dd84b3b2810c569f2c4be61bf011b26ee709987",
+  "index_sha256": "26ae0fc9b08535d32c5afe1f8f9d7d46b9ee8c65b8423624583d51c73ab72e13",
   "full_share": "Encrypted payload updated separately with stable existing fragment key."
 }
