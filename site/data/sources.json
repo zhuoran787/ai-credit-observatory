@@ -1,0 +1,132 @@
+{
+  "Treasury": {
+    "title": "US Treasury 日度平价收益率",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
+    "type": "官方日度"
+  },
+  "FRED": {
+    "title": "FRED / ICE 信用指数",
+    "url": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "type": "指数提供方经FRED分发"
+  },
+  "ACM": {
+    "title": "NY Fed ACM Term Premia",
+    "url": "https://www.newyorkfed.org/research/data_indicators/term-premia-tabs",
+    "type": "官方模型估计"
+  },
+  "SOFR": {
+    "title": "NY Fed Reference Rates API",
+    "url": "https://markets.newyorkfed.org/static/docs/markets-api.html",
+    "type": "官方接口说明"
+  },
+  "OracleQ1": {
+    "title": "Oracle FY27 Q1（截至2026-08-31）",
+    "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/default.aspx",
+    "type": "公司官方"
+  },
+  "OraclePlan": {
+    "title": "Oracle 2026融资计划（2026-02-01历史公告）",
+    "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-announces-Equity-and-Debt-Financing-Plan-for-Calendar-Year-2026/default.aspx",
+    "type": "公司历史计划；非当前未完成量"
+  },
+  "OWL": {
+    "title": "Blue Owl 2026Q2业绩及演示材料",
+    "url": "https://ir.blueowl.com/Investors/news/news-details/2026/Blue-Owl-Capital-Inc--Second-Quarter-2026-Results/",
+    "type": "公司官方"
+  },
+  "MetaJV": {
+    "title": "Meta–Blue Owl Hyperion JV（2025-10-21）",
+    "url": "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Announces-Joint-Venture-with-Funds-Managed-by-Blue-Owl-Capital-to-Develop-Hyperion-Data-Center/",
+    "type": "公司官方"
+  },
+  "CoreLease": {
+    "title": "Core Scientific 2026融资附件：租约与电力义务",
+    "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526165121/d149019dex992.htm",
+    "type": "SEC原始附件"
+  },
+  "CoreQ2": {
+    "title": "Core Scientific 2026Q2 10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1839341/000183934126000014/core-20260630.htm",
+    "type": "SEC原始披露"
+  },
+  "Galaxy": {
+    "title": "Galaxy 2026Q2 Helios建设/起租计划",
+    "url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000084/exhibit992-q22026overvie.htm",
+    "type": "SEC原始附件"
+  },
+  "SIFMA": {
+    "title": "SIFMA 美国固定收益统计",
+    "url": "https://www.sifma.org/research/statistics/us-fixed-income-securities-statistics",
+    "type": "行业协会"
+  },
+  "SIFMA2025": {
+    "title": "SIFMA 2026 Fact Book / 2025年统计",
+    "url": "https://www.sifma.org/news/blog/2026-capital-markets-fact-book-key-findings",
+    "type": "行业协会"
+  },
+  "TreasuryPlan": {
+    "title": "财政部2026-08-03净融资预测",
+    "url": "https://home.treasury.gov/news/press-releases/sb0584",
+    "type": "官方融资计划"
+  },
+  "TreasuryAuctions": {
+    "title": "财政部2026-08季度再融资声明",
+    "url": "https://home.treasury.gov/news/press-releases/sb0590",
+    "type": "官方拍卖计划"
+  },
+  "R01": {
+    "title": "20261012-JPM_AI_Capex_Funding_Dat_2026-05-11_5290840.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  },
+  "R02": {
+    "title": "20261012-JPM_AI_Capex_Funding__Da_2026-07-31_5387155.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  },
+  "R03": {
+    "title": "20261012-JPM_Bits__Broadcasts___B_2026-10-02_5463713.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  },
+  "R04": {
+    "title": "20261012-JPM_Whose_Cash_Is_It_Any_2026-10-01_5464704.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  },
+  "R05": {
+    "title": "20261012-baml-ai债报告.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  },
+  "R06": {
+    "title": "20261012-ms-ai债报告.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  },
+  "R07": {
+    "title": "20261012-ms-ai债报告ARSIGLE20260722125755806.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  },
+  "R08": {
+    "title": "20261012-ms-ai债报告GLOBAL_20260529_0401.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  },
+  "R09": {
+    "title": "20261012-ms-ai债报告SUNDAY_20260816_0600.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  },
+  "R10": {
+    "title": "20261012-ubs-ai债报告1.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  },
+  "R11": {
+    "title": "20261012-ubs-ai债报告2.pdf",
+    "url": "report.html#source-catalog",
+    "type": "本地研究来源；原件与原页截图未公开"
+  }
+}

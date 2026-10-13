@@ -1,0 +1,118 @@
+{
+  "research_asof": "2026-10-12",
+  "history_start": "2025-10-01",
+  "fred_series": [
+    {
+      "id": "DGS2",
+      "label": "美国国债 2 年",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "日频/收盘",
+      "family": "宏观",
+      "stale_calendar_days": 7
+    },
+    {
+      "id": "DGS5",
+      "label": "美国国债 5 年",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "日频/收盘",
+      "family": "宏观",
+      "stale_calendar_days": 7
+    },
+    {
+      "id": "DGS10",
+      "label": "美国国债 10 年",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "日频/收盘",
+      "family": "宏观",
+      "stale_calendar_days": 7
+    },
+    {
+      "id": "DGS20",
+      "label": "美国国债 20 年",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "日频/收盘",
+      "family": "宏观",
+      "stale_calendar_days": 7
+    },
+    {
+      "id": "DGS30",
+      "label": "美国国债 30 年",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "日频/收盘",
+      "family": "宏观",
+      "stale_calendar_days": 7
+    },
+    {
+      "id": "DFII10",
+      "label": "10 年实际利率",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "日频/收盘",
+      "family": "宏观",
+      "stale_calendar_days": 7
+    },
+    {
+      "id": "DFII30",
+      "label": "30 年实际利率",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "日频/收盘",
+      "family": "宏观",
+      "stale_calendar_days": 7
+    },
+    {
+      "id": "T10YIE",
+      "label": "10 年盈亏平衡通胀",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "日频/收盘",
+      "family": "宏观",
+      "stale_calendar_days": 7
+    },
+    {
+      "id": "SOFR",
+      "label": "SOFR",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "日频/收盘",
+      "family": "宏观",
+      "stale_calendar_days": 7
+    },
+    {
+      "id": "MORTGAGE30US",
+      "label": "30 年固定房贷利率（非MBS收益率）",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "周频",
+      "family": "宏观",
+      "stale_calendar_days": 12
+    },
+    {
+      "id": "DRTSCILM",
+      "label": "银行大中企业贷款标准净收紧比例",
+      "unit": "%",
+      "scale": 1,
+      "frequency": "季度",
+      "family": "宏观",
+      "stale_calendar_days": 110
+    }
+  ],
+  "stocks": [
+    "OWL",
+    "OBDC",
+    "OTF",
+    "ORCL",
+    "CRWV",
+    "NBIS"
+  ],
+  "stock_provider": "Yahoo Finance 第三方行情；不保证即时/可交易",
+  "refresh_policy": "手动触发GitHub后台抓取；网页按钮读取最近发布的快照；没有定时更新。",
+  "rates_source": "US Treasury daily par yield curve",
+  "acm_source": "NY Fed ACM Daily / ACMTP10；模型估计，可修订；非30年期限溢价",
+  "observation_cutoff": null
+}

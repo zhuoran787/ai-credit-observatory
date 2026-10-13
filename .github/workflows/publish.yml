@@ -1,0 +1,74 @@
+name: Publish AI credit observatory
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'refresh = fetch current data; publish-only = publish saved snapshot'
+        type: choice
+        default: refresh
+        options: [refresh, publish-only]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: ai-credit-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'refresh'
+        with:
+          python-version: '3.12'
+      - name: Install data reader
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'refresh'
+        run: pip install -r .runtime/requirements.txt
+      - name: Refresh public market data
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'refresh'
+        run: python .runtime/cloud_refresh.py
+      - name: Keep latest snapshot
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'refresh'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .runtime/data/snapshot.json site/data/snapshot.json site/data/snapshot.js site/publication.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh public market snapshot'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify public delivery
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          import os,time
+          base='${{ steps.deployment.outputs.page_url }}'
+          for filename in ['index.html','report.html','data/snapshot.json']:
+              expected=(Path('site')/filename).read_bytes()
+              for attempt in range(8):
+                  try:
+                      req=Request(base+filename+'?run='+os.environ['GITHUB_RUN_ID'],headers={'Cache-Control':'no-cache'})
+                      if urlopen(req,timeout=25).read()==expected:
+                          print(filename+': public bytes verified')
+                          break
+                  except Exception as exc:
+                      print(type(exc).__name__)
+                  time.sleep(8)
+              else:
+                  raise SystemExit('Public verification failed: '+filename)
+          PY
