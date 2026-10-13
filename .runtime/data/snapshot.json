@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-12T22:15:17-07:00",
+  "fetched_at": "2026-10-12T22:50:16-07:00",
   "research_asof": "2026-10-12",
   "today_local": "2026-10-12",
   "refresh_policy": "手动触发GitHub后台抓取；网页按钮读取最近发布的快照；没有定时更新。",
@@ -11,7 +11,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/OWL/",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-12",
       "value": 9.34,
       "history": [
@@ -1039,7 +1039,7 @@
       "frequency": "日频",
       "provider": "Federal Reserve Bank of New York",
       "source_url": "https://markets.newyorkfed.org/api/rates/secured/sofr/last/30.json",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-08",
       "value": 3.87,
       "history": [
@@ -1182,7 +1182,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/OBDC/",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-12",
       "value": 10.12,
       "history": [
@@ -2210,7 +2210,7 @@
       "frequency": "日频/收盘",
       "provider": "US Treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-09",
       "value": 4.8,
       "history": [
@@ -3013,7 +3013,7 @@
       "frequency": "日频/收盘",
       "provider": "US Treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-09",
       "value": 5.02,
       "history": [
@@ -3816,7 +3816,7 @@
       "frequency": "日频/收盘",
       "provider": "US Treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-09",
       "value": 5.24,
       "history": [
@@ -4619,7 +4619,7 @@
       "frequency": "日频/收盘",
       "provider": "US Treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-09",
       "value": 5.65,
       "history": [
@@ -5422,7 +5422,7 @@
       "frequency": "日频/收盘",
       "provider": "US Treasury",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-09",
       "value": 5.6,
       "history": [
@@ -6225,7 +6225,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/OTF/",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-12",
       "value": 9.21,
       "history": [
@@ -7253,7 +7253,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/ORCL/",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-12",
       "value": 137.389999,
       "history": [
@@ -8281,7 +8281,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/NBIS/",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-12",
       "value": 210.059998,
       "history": [
@@ -9309,7 +9309,7 @@
       "frequency": "行情快照/日线",
       "provider": "Yahoo Finance（第三方）",
       "source_url": "https://finance.yahoo.com/quote/CRWV/",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-12",
       "value": 80.260002,
       "history": [
@@ -10337,7 +10337,7 @@
       "frequency": "日频/模型估计",
       "provider": "NY Fed ACM 模型",
       "source_url": "https://www.newyorkfed.org/research/data_indicators/term-premia-tabs",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-09",
       "value": 0.902297,
       "history": [
@@ -11388,7 +11388,7 @@
       "frequency": "日频",
       "provider": "同日数据计算",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-09",
       "value": 80.0,
       "history": [
@@ -12191,7 +12191,7 @@
       "frequency": "日频",
       "provider": "同日数据计算",
       "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve",
-      "fetched_at": "2026-10-12T22:15:17-07:00",
+      "fetched_at": "2026-10-12T22:50:16-07:00",
       "observed_at": "2026-10-09",
       "value": 36.0,
       "history": [
@@ -14026,8 +14026,8 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -3.0,
@@ -15073,8 +15073,8 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -2.0,
@@ -16120,8 +16120,8 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -2.0,
@@ -17167,8 +17167,8 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -1.0,
@@ -18214,8 +18214,8 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 4,
       "stale": false,
       "change_5obs": 0.0,
@@ -19261,8 +19261,8 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 4,
       "stale": false,
       "change_5obs": 0.0,
@@ -20308,8 +20308,8 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 4,
       "stale": false,
       "change_5obs": -1.0,
@@ -21359,8 +21359,8 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 3,
       "stale": false,
       "change_5obs": -3.0,
@@ -22402,8 +22402,8 @@
       "stale_calendar_days": 7,
       "note": "",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 4,
       "stale": false,
       "change_5obs": 0.0,
@@ -22641,8 +22641,8 @@
       "stale_calendar_days": 12,
       "note": "Freddie Mac调查的住房贷款利率；不是agency MBS收益率或OAS。",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 4,
       "stale": false,
       "change_5obs": 69.0,
@@ -22680,8 +22680,8 @@
       "stale_calendar_days": 110,
       "note": "",
       "quote_time": null,
-      "fetch_status": "ok",
-      "error": null,
+      "fetch_status": "cached",
+      "error": "本次尚未成功更新",
       "age_calendar_days": 103,
       "stale": false,
       "change_5obs": null,
@@ -22691,124 +22691,124 @@
   },
   "fetches": [
     {
-      "source": "FRED_DGS5",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
-    },
-    {
-      "source": "FRED_DGS2",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
-    },
-    {
       "source": "NYFed_SOFR",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
+      "checked_at": "2026-10-12T22:50:16-07:00"
     },
     {
       "source": "Treasury",
       "ok": true,
       "series_count": 5,
-      "checked_at": "2026-10-12T22:15:17-07:00"
-    },
-    {
-      "source": "FRED_DFII10",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
-    },
-    {
-      "source": "FRED_DGS30",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
-    },
-    {
-      "source": "FRED_DGS10",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
-    },
-    {
-      "source": "FRED_DGS20",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
+      "checked_at": "2026-10-12T22:50:16-07:00"
     },
     {
       "source": "NYFed_ACM",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
+      "checked_at": "2026-10-12T22:50:16-07:00"
     },
     {
-      "source": "FRED_T10YIE",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
+      "source": "FRED_DGS5",
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
+    },
+    {
+      "source": "FRED_DGS2",
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
+    },
+    {
+      "source": "FRED_DGS10",
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
+    },
+    {
+      "source": "FRED_DGS20",
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
+    },
+    {
+      "source": "FRED_DGS30",
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
+    },
+    {
+      "source": "FRED_DFII10",
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
     },
     {
       "source": "FRED_SOFR",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
     },
     {
       "source": "FRED_DFII30",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
     },
     {
-      "source": "FRED_DRTSCILM",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
-    },
-    {
-      "source": "FRED_MORTGAGE30US",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
-    },
-    {
-      "source": "OWL",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
-    },
-    {
-      "source": "OBDC",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
-    },
-    {
-      "source": "NBIS",
-      "ok": true,
-      "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
+      "source": "FRED_T10YIE",
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
     },
     {
       "source": "OTF",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
+      "checked_at": "2026-10-12T22:50:16-07:00"
+    },
+    {
+      "source": "OWL",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-12T22:50:16-07:00"
+    },
+    {
+      "source": "OBDC",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-12T22:50:16-07:00"
     },
     {
       "source": "ORCL",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
+      "checked_at": "2026-10-12T22:50:16-07:00"
     },
     {
       "source": "CRWV",
       "ok": true,
       "series_count": 1,
-      "checked_at": "2026-10-12T22:15:17-07:00"
+      "checked_at": "2026-10-12T22:50:16-07:00"
+    },
+    {
+      "source": "NBIS",
+      "ok": true,
+      "series_count": 1,
+      "checked_at": "2026-10-12T22:50:16-07:00"
+    },
+    {
+      "source": "FRED_MORTGAGE30US",
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
+    },
+    {
+      "source": "FRED_DRTSCILM",
+      "ok": false,
+      "error": "TimeoutError: The read operation timed out",
+      "checked_at": "2026-10-12T22:50:16-07:00"
     }
   ],
   "config_hash": "856355aed73f3bd52b11efbc03704c55718ef9e13bd710b9c0507ebc78941467",
